@@ -270,8 +270,3 @@ class BouaziziOtsuki(SarcasmDetection):
 			features.append(sentiment + punctuation + lexicalSyntactic + pattern)
 		featuresNP = np.array(features)
 		return featuresNP
-
-
-coba = BouaziziOtsuki()
-test = coba.transform(["asd","asd","qwe"])
-print (test)
