@@ -96,9 +96,8 @@ class BouaziziOtsuki(SarcasmDetection):
 		return X
 
 	def transform(self, raw_documents, copy=True):
-		"""Transform documents to document-term matrix.
-		Uses the vocabulary and document frequencies (df) learned by fit (or
-		fit_transform).
+		"""Transform sentence to features extraction matrix.
+		Uses the sentence learned by fit (or fit_transform).
 
 		Parameters
 		==========
